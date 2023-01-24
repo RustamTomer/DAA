@@ -1,1 +1,2 @@
 # DAA
+1. LINEAR SEARCH
