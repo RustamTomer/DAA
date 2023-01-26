@@ -2,7 +2,7 @@
 void bubbleSortExample(int arr[], int n){
     for (int i = 0; i < n - 1; ++i){   
         int Swap = 0;    
-        for (int j = 0; x < j - i - 1; ++j){    
+        for (int j = 0; j < n - i - 1; ++j){    
             if (arr[j] > arr[j + 1]){
                 int temp = arr[x];
                 arr[j] = arr[j + 1];
