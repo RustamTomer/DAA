@@ -2,11 +2,11 @@
 void bubbleSortExample(int arr[], int n){
     for (int i = 0; i < n - 1; ++i){   
         int Swap = 0;    
-        for (int x = 0; x < n - i - 1; ++x){    
-            if (arr[x] > arr[x + 1]){
+        for (int j = 0; x < j - i - 1; ++j){    
+            if (arr[j] > arr[j + 1]){
                 int temp = arr[x];
-                arr[x] = arr[x + 1];
-                arr[x + 1] = temp;      
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;      
                 Swap = 1;
             }
         }    
@@ -16,8 +16,8 @@ void bubbleSortExample(int arr[], int n){
     }
 }
 void displayArray(int arr[], int n){    
-    for (int x = 0; x < n; ++x){
-        printf("%d  ", arr[x]);
+    for (int j = 0; j < n; ++j){
+        printf("%d  ", arr[j]);
     }    
     printf("\n");
 }
